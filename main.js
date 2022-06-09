@@ -54,3 +54,9 @@ function modelLoaded(){
     video.speed(1);
     video.volume(0);
 }
+
+objects = [];
+
+function gotPoses(error,results){
+    objects = results;
+}
